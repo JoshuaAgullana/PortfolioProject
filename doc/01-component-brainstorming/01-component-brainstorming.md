@@ -1,8 +1,8 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Joshua Agullana
+- **Dot Number**: agullana.1
+- **Due Date**: 9/13 @ 4:10
 
 ## Assignment Overview
 
@@ -192,70 +192,70 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Character Collector
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - Randomly recieves characters from a list into a clients inventory
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - .findRandomPerson(), .discardAny(), .containsPerson(), 
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - discardAll(), .findPerson(), .discardPerson();
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, you want to be able to add and remove characters from a persons inventory.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Map with a queue inside for the list of characters and probably a set for the inventory.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Idk
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Discard all can easily be implemeneted using the kernal method discard any until inventory is empty.
 
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Music Playlist
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - contain songs in a queue
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - .addSong(), .removeSong(), .contains();
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - .shuffle(), .repeat(), .clearPlaylist();
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, you would want to be able to change songs in the playlist by adding or removing.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Queue for the order of songs being played
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - IDK
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - shuffle would be implemented using the add and remove song while switching the order when re adding.
 
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #3: Character Customizer
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - Create a character in which items can be added on such as clothes, accessories, hairstyles.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - .addClothing() .removeClothing, .addAccessories(), .removeAccessories(), .changeAttribute(x, y);
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - .removeAllClothing(), .removeAllAccessories() .resetAttributes();
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - mutable so you can change the character
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - IDK
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - IDK
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - the clothing and accessories remove all can be implemented using the remove in the kernal for both.
 
 ## Post-Assignment
 

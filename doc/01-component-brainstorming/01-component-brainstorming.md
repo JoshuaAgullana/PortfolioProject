@@ -98,15 +98,11 @@ do good work.
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+Gaming has always played a big role in my life. I grew up playing generational games such as Call of Duty, GTA, Minecraft, Dying Light. It was definitely a dream of mine to create my own game that people could enjoy. Personally I enjoyed when games had a competetive aspect. While I think games can last and have a strong impact on people when they are story based, I think that what really makes games survive over years is when they have a competetive aspect. Much like sports, people that play games may also have that competetive drive to keep them playing.
 
 ## Assignment
 
-<!-- TODO: read the assignment section then delete this comment -->
+
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
@@ -196,7 +192,7 @@ will likely refine your design to make your implementation easier to use.
   - **Description**:
     - Randomly recieves characters from a list into a clients inventory
   - **Kernel Methods**:
-    - .findRandomPerson(), .discardAny(), .containsPerson(), 
+    - .findRandomPerson(), .discardAny(), .containsPerson(),
   - **Secondary Methods**:
     - discardAll(), .findPerson(), .discardPerson();
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
